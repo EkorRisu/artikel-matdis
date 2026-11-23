@@ -65,6 +65,7 @@ export default function AboutPage() {
                 </nav>
                 <div className="my-4 border-t border-[#202421]/10" />
                 <Link onClick={closeSidebar} href="/#operasi" className="block rounded-lg px-3 py-3 text-sm font-bold text-[#e48b42] transition-colors hover:bg-[#d9f36a] hover:text-[#202421]">Operasi</Link>
+                <Link onClick={closeSidebar} href="/references" className="mt-1 block rounded-lg px-3 py-3 text-sm font-bold text-[#202421]/65 transition-colors hover:bg-[#d9f36a] hover:text-[#202421]">Referensi</Link>
                 <Link onClick={closeSidebar} href="/about" className="mt-1 block rounded-lg px-3 py-3 text-sm font-bold text-[#202421]/65 transition-colors hover:bg-[#d9f36a] hover:text-[#202421]">Tentang</Link>
             </aside>
             <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14 lg:px-10 lg:py-18">
